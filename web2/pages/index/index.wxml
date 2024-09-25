@@ -1,0 +1,110 @@
+<!-- 轮播图 part -->
+<view class="swiper">
+<swiper
+autoplay
+    circular
+    indicator-dots
+    indicator-color="#fff"
+    interval="2000"
+    indicator-active-color="#f3415f"
+>
+  <swiper-item>
+  <image src="../../image/banner/banner-1.jpg" alt=""/>
+  </swiper-item>
+  <swiper-item>
+  <image src="../../image/banner/banner-2.jpg" alt=""/>
+  </swiper-item>
+  <swiper-item>
+  <image src="../../image/banner/banner-3.jpg" alt=""/>
+  </swiper-item>
+</swiper>
+</view>
+
+<!-- 公司信息部分 -->
+<view class="info">
+  <text>同城配送</text>
+  <text>行业龙头</text>
+  <text>半小时配送</text>
+  <text>百分之百好评</text>
+</view>
+
+
+<!-- 商品分类部分 -->
+<view class="good-nav">
+<view>
+<navigator url="/pages/list/list">
+<image src="../../image/food.png" mode=""/>
+<text>美食配送</text>
+</navigator>
+</view>
+<view><navigator url="/pages/list/list">
+<image src="../../image/food.png" mode=""/>
+<text>美食配送</text>
+</navigator>
+</view>
+<view>
+<navigator url="/pages/list/list">
+<image src="../../image/food.png" mode=""/>
+<text>美食配送</text>
+</navigator>
+</view>
+<view>
+<navigator url="/pages/list/list">
+<image src="../../image/food.png" mode=""/>
+<text>美食配送</text>
+</navigator>
+</view>
+<view>
+<navigator url="/pages/list/list">
+<image src="../../image/food.png" mode=""/>
+<text>美食配送</text>
+</navigator>
+</view>
+</view>
+
+<!-- 商品推荐部分 -->
+<view class="good-hot">
+<scroll-view class="scorll-x" scroll-x>
+
+<view>
+  <view class="good-item">
+     <image src="../../image/scrfood/scrfood-1.jpg" mode=""/>
+     <text>美食</text>
+     <text>66</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+     <image src="../../image/scrfood/scrfood-2.jpg" mode=""/>
+     <text>美食</text>
+     <text>66</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+     <image src="../../image/scrfood/scrfood-3.jpg" mode=""/>
+     <text>美食</text>
+     <text>66</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+     <image src="../../image/scrfood/scrfood-4.jpg" mode=""/>
+     <text>美食</text>
+     <text>66</text>
+  </view>
+</view>
+
+<view>
+  <view class="good-item">
+     <image src="../../image/scrfood/scrfood-5.jpg" mode=""/>
+     <text>美食</text>
+     <text>66</text>
+  </view>
+</view>
+ 
+  </scroll-view>
+</view>

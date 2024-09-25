@@ -1,0 +1,4 @@
+<!--pages/list/list.wxml-->
+<navigator url="/pages/index/index" open-type="switchTab">
+<text>返回</text>
+</navigator>

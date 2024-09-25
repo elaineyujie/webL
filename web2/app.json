@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cate/cate",
+    "pages/cart/cart",
+    "pages/profile/profile",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarTitleText": "橙橙速递",
+    "navigationBarBackgroundColor": "#f3514f",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "selectedColor": "#f3415f",
+    "color": "#666",
+    "backgroundColor": "#efefef",
+    "list": [
+      {
+      "text": "首页",
+      "pagePath": "pages/index/index",
+      "iconPath": "/image/首页1.png",
+      "selectedIconPath": "/image/首页1-active.png"
+    },
+    {
+    "text": "分类",
+    "pagePath": "pages/cate/cate",
+    "iconPath": "/image/分类.png",
+    "selectedIconPath": "/image/分类-active.png"
+  },
+  {
+    "text": "购物车",
+    "pagePath": "pages/cart/cart",
+    "iconPath": "/image/购物车12.png",
+    "selectedIconPath": "/image/购物车12-active.png"
+  },
+  {
+    "text": "我的",
+    "pagePath": "pages/profile/profile",
+    "iconPath": "/image/我的1.png",
+    "selectedIconPath": "/image/我的1-active.png"
+  }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
